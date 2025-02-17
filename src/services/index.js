@@ -740,6 +740,7 @@ export const buildTianApi = async (apiType, params = null) => {
     wanan: 'eveningGreeting',
     networkhot: 'networkHot',
     tianqi: 'weather',
+    meirixinwen:'bulletin',
   }
   if (!(config.TIAN_API && config.TIAN_API[typeMap[apiType]])) {
     return []
