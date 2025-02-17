@@ -14,9 +14,7 @@ const USER_CONFIG = {
   APP_SECRET: '0e243bd5cb6e84e69c9f8e48bdc27fa6',
 
   // 天行API配置
-  TIAN_API: {
-    key: '268a723e949a009c40503553984ebd6d', // 你的天行API密钥
-  },
+  TIAN_API: '268a723e949a009c40503553984ebd6d', // 你的天行API密钥
   
   PROVINCE: '北京',
   CITY: '北京',
@@ -28,7 +26,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'onIJR7P0ennneAcBUeQq-skVF7bk',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '	KQ4aO0YoLH4xVS8nDfuKf0DqMsqpXtlaEH7mTy1egwQ',
+      useTemplateId: 'KQ4aO0YoLH4xVS8nDfuKf0DqMsqpXtlaEH7mTy1egwQ',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '3-30',
       festivals: [
@@ -56,7 +54,7 @@ const USER_CONFIG = {
 
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: '	KQ4aO0YoLH4xVS8nDfuKf0DqMsqpXtlaEH7mTy1egwQ',
+  CALLBACK_TEMPLATE_ID: 'KQ4aO0YoLH4xVS8nDfuKf0DqMsqpXtlaEH7mTy1egwQ',
 
   CALLBACK_USERS: [
     {
