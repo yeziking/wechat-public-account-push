@@ -808,6 +808,31 @@ export const getTianApiNetworkHot = async (type = 'default') => {
       result += `${index + 1}、 ${type === 'default' ? item.digest : item.title} ${getLB()}`
     }
   })
+
+  /**
+ * 天行-每日资讯
+ * @returns {Promise<string>} 每日资讯内容
+ */
+export const getTianApiBulletin = () => {
+  return buildTianApi('bulletin').then((res) => {
+    // 检查返回的数据是否有效
+    if (res && res.length > 0) {
+      // 假设返回的每条资讯包含 `title` 和 `content` 字段
+      // 将多条资讯拼接成一个字符串
+      return res
+        .map((item) => `${item.title}: ${item.content}`) // 拼接标题和内容
+        .join('\n\n'); // 使用双换行符分隔每条资讯
+    } else {
+      // 如果没有数据，返回默认提示
+      return "暂无每日资讯数据";
+    }
+  }).catch((err) => {
+    // 捕获错误并打印日志
+    console.error('获取每日资讯失败:', err);
+    return "获取每日资讯失败，请稍后再试";
+  });
+};
+  
   return result
 }
 
