@@ -13,6 +13,11 @@ const USER_CONFIG = {
   // 使用微信测试号：公众号APP_SECRET
   APP_SECRET: '0e243bd5cb6e84e69c9f8e48bdc27fa6',
 
+  // 天行API配置
+  TIAN_API: {
+    key: '268a723e949a009c40503553984ebd6d', // 你的天行API密钥
+  },
+  
   PROVINCE: '北京',
   CITY: '北京',
 
