@@ -809,15 +809,6 @@ export const getTianApiNetworkHot = async (type = 'default') => {
     }
   })
 
-/**
- * 天行-每日资讯
- * @returns {Promise<string>} 每日资讯内容
- */
-export const getTianApiMorningGreeting = () => {
-    return buildTianApi('meirizixun').then((res) => {
-        return res[0] && res[0].content;
-      })
-}
   
   return result
 }
