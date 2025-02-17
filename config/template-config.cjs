@@ -1,4 +1,6 @@
 /* eslint-disable */
+const apiKey = USER_CONFIG.TIAN_API.key;
+// 使用 apiKey 调用天行API
 const TEMPLATE_CONFIG = [
   {
     id: '0001',
