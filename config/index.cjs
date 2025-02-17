@@ -52,8 +52,6 @@ const USER_CONFIG = {
         { keyword: 'marry_day', date: '2023-06-16' },
       ],
     },
-    const apiKey = USER_CONFIG.TIAN_API.key;
-// 使用 apiKey 调用天行API
   ],
 
 
