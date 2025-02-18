@@ -35,7 +35,7 @@ const USER_CONFIG = {
     networkHotType: 'default',
   },
   
-  
+  //在这里设置省份，城市，省份可以空
   PROVINCE: ' ',
   CITY: '南宁',
 
