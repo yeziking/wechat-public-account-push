@@ -37,7 +37,7 @@ const USER_CONFIG = {
   
   //在这里设置省份，城市，省份可以空
   PROVINCE: ' ',
-  CITY: '南宁',
+  CITY: '洛阳',
 
   USERS: [
     {
